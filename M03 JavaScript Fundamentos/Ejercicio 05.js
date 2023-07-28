@@ -74,15 +74,15 @@ function esVocal(letra) {
    // Tu código:
    if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
       return "Es vocal"
-   } else if (letra == "a" > 1 ){
+   } else if (letra.length > 1 ){
       return "Dato incorrecto"  
    } else  if (letra !== "a" || letra !== "e" || letra !== "i" || letra !== "o" || letra !== "u"){
       return "Dato incorrecto"
-   } else [
+   } else {
       "Ingresar dato"
-   ]
-
    }
+
+   } 
    
 
 
